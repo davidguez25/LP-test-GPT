@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aides pour l'installation de pompes à chaleur</title>
+  <style>
+    /* Mise en forme de la page */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .container {
+      width: 600px;
+      margin: 0 auto;
+    }
+    /* Mise en forme du formulaire */
+    form {
+      margin-top: 50px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="text"], input[type="tel"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin-bottom: 20px;
+      border: none;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Aides pour l'installation de pompes à chaleur</h1>
+  <div class="container">
+    <p>
+      Obtenez jusqu'à 100% de financement pour l'installation d'une pompe à chaleur grâce aux nouvelles aides disponibles pour les propriétaires. Remplissez le formulaire ci-dessous pour en savoir plus.
+    </p>
+    <form>
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="prenom">Prenom :</label>
+      <input type="text" id="prenom" name="prenom" required>
+
+      <label for="tel">Numéro de téléphone :</label>
+      <input type="tel" id="tel" name="tel" required>
+
+      <input type="submit" value="Envoyer">
+    </form>
+  </div>
+</body>
+</html>
